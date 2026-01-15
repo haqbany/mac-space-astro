@@ -718,6 +718,23 @@ public struct MenuBarContentView: View {
                 .foregroundColor(.white.opacity(0.3))
             
             Spacer()
+
+            Button(action: {
+                if let url = URL(string: "https://paypal.me/Makerbuild3d") {
+                    NSWorkspace.shared.open(url)
+                }
+            }) {
+                HStack(spacing: 4) {
+                    Image(systemName: "heart.fill")
+                        .foregroundColor(.pink)
+                    Text("Support")
+                }
+                .font(.system(size: 11, weight: .bold))
+                .foregroundColor(.white.opacity(0.8))
+            }
+            .buttonStyle(.plain)
+            
+            Spacer()
             
             Button(action: { NSApplication.shared.terminate(nil) }) {
                 HStack(spacing: 4) {

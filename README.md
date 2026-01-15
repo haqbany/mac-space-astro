@@ -9,19 +9,19 @@ The Quantum Edition features a high-fidelity, futuristic holographic UI inspired
 Experience monitoring like never before with our signature GT3-style analog gauges. High-accuracy cyan needles track your CPU, Memory Pressure, and Storage in real-time.
 
 > **Preview:**
-> ![Dashboard Preview](https://github.com/haqbany/mac-space-astro-app/raw/main/preview_dashboard.png)
+> ![Dashboard Preview](https://github.com/haqbany/mac-space-astro/raw/main/preview_dashboard.png)
 
 ### 📸 Visually Lossless Compressor
 Reduce file sizes by up to 80% without losing a single pixel of quality. Our new engine uses a calibrated 0.85 quality factor for "perceptually identical" results across JPEG, WebP, and AVIF.
 
 > **Preview:**
-> ![Compressor Preview](https://github.com/haqbany/mac-space-astro-app/raw/main/preview_compressor.png)
+> ![Compressor Preview](https://github.com/haqbany/mac-space-astro/raw/main/preview_compressor.png)
 
 ### 🛸 Stealth Menu Bar
 A slim, frost-glass dashboard that lives in your menu bar. Real-time redlining graphs for network and system health.
 
 > **Preview:**
-> ![Menu Bar Preview](https://github.com/haqbany/mac-space-astro-app/raw/main/preview_menubar.png)
+> ![Menu Bar Preview](https://github.com/haqbany/mac-space-astro/raw/main/preview_menubar.png)
 
 ## 🛠 Tech Stack
 - **Language:** Swift 6.0
@@ -36,10 +36,17 @@ A slim, frost-glass dashboard that lives in your menu bar. Real-time redlining g
 
 ## 🧪 Quick Start
 ```bash
-git clone https://github.com/haqbany/mac-space-astro-app.git
-cd mac-space-astro-app
+git clone https://github.com/haqbany/mac-space-astro.git
+cd mac-space-astro
 swift run
 ```
+
+## ❤️ Support the Project
+If you find Mac Space Astro useful and want to support its development, you can donate via PayPal:
+
+[**Support Mac Space Astro on PayPal**](https://paypal.me/Makerbuild3d)
+
+Every contribution helps keep the project open-source and active!
 
 ---
 *Precise Engineering • Safety First*
