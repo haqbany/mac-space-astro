@@ -10,17 +10,11 @@ Monitor your Mac's performance with a clean visual interface.
 - **System Specs**: View detailed info about your Mac (Model, Chip, macOS version).
 - **Hardware Stats**: Check thermal state, temperature, and screen refresh rate.
 
-> **Preview:**
-> ![Dashboard Preview](https://github.com/haqbany/mac-space-astro/raw/main/preview_dashboard.png)
-
 ### 📸 Image Compressor
 A built-in tool to compress images.
 - Drag and drop functionality.
 - Supports JPEG, PNG, and WebP formats.
 - Helps reduce file sizes for web use or storage.
-
-> **Preview:**
-> ![Compressor Preview](https://github.com/haqbany/mac-space-astro/raw/main/preview_compressor.png)
 
 ### 🖥️ Menu Bar App
 Access system stats directly from the menu bar.
