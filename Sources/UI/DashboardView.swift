@@ -37,14 +37,14 @@ public struct DashboardView: View {
             VStack(spacing: 40) {
                 // Instrument Cluster Header
                 HStack(spacing: 40) {
-                    GT3Gauge(
+                    AstroGauge(
                         value: viewModel.cpuUsage,
                         label: "CPU",
                         unit: "% Usage",
                         redline: 85
                     )
                     
-                    GT3Gauge(
+                    AstroGauge(
                         value: viewModel.memoryStats?.pressurePercentage ?? 0,
                         label: "Memory",
                         unit: "Pressure",
@@ -53,7 +53,7 @@ public struct DashboardView: View {
                     .scaleEffect(1.2) // Central tachometer feel
                     
                     if let disk = viewModel.diskStats {
-                        GT3Gauge(
+                        AstroGauge(
                             value: (Double(disk.used) / Double(disk.total)) * 100,
                             label: "Storage",
                             unit: "% Full",

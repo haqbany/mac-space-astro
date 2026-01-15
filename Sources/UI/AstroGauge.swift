@@ -1,6 +1,6 @@
 import SwiftUI
 
-public struct GT3Gauge: View {
+public struct AstroGauge: View {
     let value: Double
     let label: String
     let unit: String

@@ -19,7 +19,7 @@ public struct MenuBarContentView: View {
     
     public var body: some View {
         ZStack {
-            // Red Edition Background
+            // Quantum Blue Background
             AstroTheme.darkGradient
                 .ignoresSafeArea()
             
