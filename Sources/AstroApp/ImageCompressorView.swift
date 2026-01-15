@@ -1,6 +1,7 @@
 import SwiftUI
 import AppKit
 import ImageEngine
+import AstroUI
 
 public struct ImageCompressorView: View {
     @StateObject private var viewModel = ImageCompressorViewModel()
@@ -17,11 +18,11 @@ public struct ImageCompressorView: View {
                 VStack(spacing: 8) {
                     ZStack {
                         Circle()
-                            .fill(AstroTheme.accentRed.opacity(0.1))
+                            .fill(AstroTheme.accentBlue.opacity(0.1))
                             .frame(width: 60, height: 60)
                         Image(systemName: viewModel.isOptimizing ? "arrow.triangle.2.circlepath" : "photo.stack.fill")
                             .font(.system(size: 24))
-                            .foregroundColor(AstroTheme.accentRed)
+                            .foregroundColor(AstroTheme.accentBlue)
                         .rotationEffect(.degrees(viewModel.isOptimizing ? 360 : 0))
                         .animation(viewModel.isOptimizing ? .linear(duration: 1).repeatForever(autoreverses: false) : .default, value: viewModel.isOptimizing)
                 }
@@ -117,11 +118,11 @@ public struct ImageCompressorView: View {
                                 .padding(.vertical, 8)
                                 .background(
                                     RoundedRectangle(cornerRadius: 8)
-                                        .fill(viewModel.selectedFormat == format ? AstroTheme.accentRed.opacity(0.3) : Color.white.opacity(0.05))
+                                        .fill(viewModel.selectedFormat == format ? AstroTheme.accentBlue.opacity(0.3) : Color.white.opacity(0.05))
                                 )
                                 .overlay(
                                     RoundedRectangle(cornerRadius: 8)
-                                        .stroke(viewModel.selectedFormat == format ? AstroTheme.accentRed.opacity(0.5) : Color.clear, lineWidth: 1)
+                                        .stroke(viewModel.selectedFormat == format ? AstroTheme.accentBlue.opacity(0.5) : Color.clear, lineWidth: 1)
                                 )
                         }
                         .buttonStyle(.plain)

@@ -71,13 +71,13 @@ public struct MenuBarContentView: View {
                 Circle()
                     .fill(
                         LinearGradient(
-                            colors: [Color(red: 1, green: 0.4, blue: 0.2), Color(red: 0.9, green: 0.2, blue: 0.4)],
+                            colors: [Color.blue, Color.cyan],
                             startPoint: .topLeading,
                             endPoint: .bottomTrailing
                         )
                     )
                     .frame(width: 40, height: 40)
-                    .shadow(color: Color(red: 1, green: 0.4, blue: 0.2).opacity(0.4), radius: 8, x: 0, y: 4)
+                    .shadow(color: Color.blue.opacity(0.4), radius: 8, x: 0, y: 4)
                 
                 Image(systemName: "sparkles")
                     .font(.system(size: 18, weight: .semibold))
@@ -108,7 +108,7 @@ public struct MenuBarContentView: View {
             }) {
                 Image(systemName: viewModel.isPinned ? "pin.fill" : "pin")
                     .font(.system(size: 14))
-                    .foregroundColor(viewModel.isPinned ? Color(red: 1, green: 0.4, blue: 0.2) : .white.opacity(0.4))
+                    .foregroundColor(viewModel.isPinned ? AstroTheme.accentBlue : .white.opacity(0.4))
                     .padding(8)
                     .background(Color.white.opacity(0.05))
                     .clipShape(Circle())
@@ -322,7 +322,7 @@ public struct MenuBarContentView: View {
                 title: "Disk",
                 value: "\(Int(viewModel.diskUsagePercent))%",
                 progress: viewModel.diskUsagePercent / 100,
-                gradient: [Color(red: 1, green: 0.5, blue: 0.3), Color(red: 0.9, green: 0.3, blue: 0.5)],
+                gradient: [Color.blue, Color.cyan],
                 isHovered: hoveredCard == "disk"
             )
             .onHover { hoveredCard = $0 ? "disk" : nil }
@@ -384,7 +384,7 @@ public struct MenuBarContentView: View {
                     HStack(spacing: 1) {
                         // Wired
                         RoundedRectangle(cornerRadius: 6)
-                            .fill(Color(red: 1, green: 0.3, blue: 0.3))
+                            .fill(Color.indigo)
                             .frame(width: geo.size.width * viewModel.wiredPercent)
                         
                         // Active
@@ -404,7 +404,7 @@ public struct MenuBarContentView: View {
             
             // Legend
             HStack(spacing: 16) {
-                MemoryLegend(color: Color(red: 1, green: 0.3, blue: 0.3), label: "Wired", value: viewModel.wiredFormatted)
+                MemoryLegend(color: Color.indigo, label: "Wired", value: viewModel.wiredFormatted)
                 MemoryLegend(color: Color(red: 0.3, green: 0.6, blue: 1), label: "Active", value: viewModel.activeFormatted)
                 MemoryLegend(color: Color(red: 1, green: 0.8, blue: 0.2), label: "Compressed", value: viewModel.compressedFormatted)
             }
@@ -422,7 +422,7 @@ public struct MenuBarContentView: View {
                 icon: "doc.text.magnifyingglass",
                 title: "Find Large Files",
                 subtitle: viewModel.largeFilesSize,
-                gradient: [Color(red: 1, green: 0.6, blue: 0.2), Color(red: 1, green: 0.4, blue: 0.1)],
+                gradient: [Color.blue.opacity(0.8), Color.indigo],
                 isLoading: viewModel.isScanningLargeFiles,
                 isDisabledDuringLoading: false,
                 action: { viewModel.toggleLargeFiles() }
@@ -438,7 +438,7 @@ public struct MenuBarContentView: View {
                 icon: "arrow.down.circle.fill",
                 title: "Clean Downloads",
                 subtitle: viewModel.downloadsSize,
-                gradient: [Color(red: 1, green: 0.3, blue: 0.6), Color(red: 0.8, green: 0.1, blue: 0.4)],
+                gradient: [Color.cyan, Color.blue],
                 isLoading: viewModel.isCleaningDownloads,
                 action: { viewModel.requestCleanDownloads() }
             )
@@ -469,43 +469,7 @@ public struct MenuBarContentView: View {
     
     private var imageOptimizationSection: some View {
         VStack(alignment: .leading, spacing: 10) {
-            HStack(spacing: 8) {
-                ZStack {
-                    Circle()
-                        .fill(Color(red: 0.4, green: 0.7, blue: 1).opacity(0.1))
-                        .frame(width: 28, height: 28)
-                    Image(systemName: viewModel.isOptimizing ? "arrow.triangle.2.circlepath" : "photo.on.rectangle.angled")
-                        .font(.system(size: 14))
-                        .foregroundColor(Color(red: 0.4, green: 0.7, blue: 1))
-                        .rotationEffect(.degrees(viewModel.isOptimizing ? 360 : 0))
-                        .animation(viewModel.isOptimizing ? .linear(duration: 1).repeatForever(autoreverses: false) : .default, value: viewModel.isOptimizing)
-                }
-                
-                VStack(alignment: .leading, spacing: 1) {
-                    Text("Smart Image Compression")
-                        .font(.system(size: 11, weight: .bold))
-                        .foregroundColor(.white.opacity(0.9))
-                    Text(viewModel.optimizationStatus)
-                        .font(.system(size: 9))
-                        .foregroundColor(viewModel.isOptimizing ? .blue : .white.opacity(0.4))
-                }
-                
-                Spacer()
-                
-                Button(action: {
-                    NSApp.activate(ignoringOtherApps: true)
-                    openWindow(id: "image-compressor")
-                }) {
-                    Image(systemName: "arrow.up.left.and.arrow.down.right")
-                        .font(.system(size: 10, weight: .bold))
-                        .foregroundColor(.white.opacity(0.3))
-                        .padding(6)
-                        .background(Color.white.opacity(0.05))
-                        .cornerRadius(6)
-                }
-                .buttonStyle(.plain)
-                .help("Open in standalone window")
-            }
+            imageOptimizationHeader
             
             Text("Tailored for faster websites. Drag & Drop AVIF, WebP, PNG or JPEG high-resolution images below to shrink them while keeping premium quality.")
                 .font(.system(size: 10))
@@ -513,71 +477,9 @@ public struct MenuBarContentView: View {
                 .lineSpacing(2)
                 .fixedSize(horizontal: false, vertical: true)
             
-            // Format Picker
-            HStack(spacing: 6) {
-                ForEach(viewModel.supportedImageFormats, id: \.self) { format in
-                    Button(action: { viewModel.selectedImageFormat = format }) {
-                        Text(format.rawValue.uppercased())
-                            .font(.system(size: 8, weight: .bold))
-                            .foregroundColor(viewModel.selectedImageFormat == format ? .white : .white.opacity(0.4))
-                            .padding(.vertical, 4)
-                            .padding(.horizontal, 8)
-                            .background(
-                                RoundedRectangle(cornerRadius: 4)
-                                    .fill(viewModel.selectedImageFormat == format ? AstroTheme.accentRed.opacity(0.4) : Color.white.opacity(0.05))
-                            )
-                    }
-                    .buttonStyle(.plain)
-                }
-            }
+            imageFormatPicker
             
-            HStack(spacing: 8) {
-                Button(action: {
-                    let panel = NSOpenPanel()
-                    panel.allowsMultipleSelection = true
-                    panel.canChooseDirectories = false
-                    panel.allowedContentTypes = [.image, .jpeg, .png, .webP, .heic, .heif, .gif, .tiff]
-                    if panel.runModal() == .OK {
-                        viewModel.optimizeImages(urls: panel.urls)
-                    }
-                }) {
-                    HStack {
-                        Image(systemName: "photo.on.rectangle")
-                        Text("Files")
-                    }
-                    .font(.system(size: 11, weight: .bold))
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 8)
-                    .background(Color.white.opacity(0.1))
-                    .cornerRadius(8)
-                }
-                .buttonStyle(.plain)
-                .disabled(viewModel.isOptimizing)
-                
-                Button(action: {
-                    let panel = NSOpenPanel()
-                    panel.canChooseFiles = false
-                    panel.canChooseDirectories = true
-                    panel.allowsMultipleSelection = false
-                    if panel.runModal() == .OK {
-                        viewModel.optimizeImages(urls: panel.urls)
-                    }
-                }) {
-                    HStack {
-                        Image(systemName: "folder.fill")
-                        Text("Folder")
-                    }
-                    .font(.system(size: 11, weight: .bold))
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 8)
-                    .background(AstroTheme.primaryGradient)
-                    .cornerRadius(8)
-                }
-                .buttonStyle(.plain)
-                .disabled(viewModel.isOptimizing)
-            }
+            imageActionButtons
         }
         .padding(16)
         .background(
@@ -602,6 +504,114 @@ public struct MenuBarContentView: View {
                 }
             }
             return true
+        }
+    }
+    
+    private var imageOptimizationHeader: some View {
+        HStack(spacing: 8) {
+            ZStack {
+                Circle()
+                    .fill(Color.blue.opacity(0.1))
+                    .frame(width: 28, height: 28)
+                Image(systemName: viewModel.isOptimizing ? "arrow.triangle.2.circlepath" : "photo.on.rectangle.angled")
+                    .font(.system(size: 14))
+                    .foregroundColor(Color.cyan)
+                    .rotationEffect(.degrees(viewModel.isOptimizing ? 360 : 0))
+                    .animation(viewModel.isOptimizing ? .linear(duration: 1).repeatForever(autoreverses: false) : .default, value: viewModel.isOptimizing)
+            }
+            
+            VStack(alignment: .leading, spacing: 1) {
+                Text("Smart Image Compression")
+                    .font(.system(size: 11, weight: .bold))
+                    .foregroundColor(.white.opacity(0.9))
+                Text(viewModel.optimizationStatus)
+                    .font(.system(size: 9))
+                    .foregroundColor(viewModel.isOptimizing ? .blue : .white.opacity(0.4))
+            }
+            
+            Spacer()
+            
+            Button(action: {
+                NSApp.activate(ignoringOtherApps: true)
+                openWindow(id: "image-compressor")
+            }) {
+                Image(systemName: "arrow.up.left.and.arrow.down.right")
+                    .font(.system(size: 10, weight: .bold))
+                    .foregroundColor(.white.opacity(0.3))
+                    .padding(6)
+                    .background(Color.white.opacity(0.05))
+                    .cornerRadius(6)
+            }
+            .buttonStyle(.plain)
+        }
+    }
+    
+    private var imageFormatPicker: some View {
+        HStack(spacing: 6) {
+            ForEach(viewModel.supportedImageFormats, id: \.self) { format in
+                Button(action: { viewModel.selectedImageFormat = format }) {
+                    Text(format.rawValue.uppercased())
+                        .font(.system(size: 8, weight: .bold))
+                        .foregroundColor(viewModel.selectedImageFormat == format ? .white : .white.opacity(0.4))
+                        .padding(.vertical, 4)
+                        .padding(.horizontal, 8)
+                        .background(
+                            RoundedRectangle(cornerRadius: 4)
+                                .fill(viewModel.selectedImageFormat == format ? AstroTheme.accentBlue.opacity(0.4) : Color.white.opacity(0.05))
+                        )
+                }
+                .buttonStyle(.plain)
+            }
+        }
+    }
+    
+    private var imageActionButtons: some View {
+        HStack(spacing: 8) {
+            Button(action: {
+                let panel = NSOpenPanel()
+                panel.allowsMultipleSelection = true
+                panel.canChooseDirectories = false
+                panel.allowedContentTypes = [.image, .jpeg, .png, .webP, .heic, .heif, .gif, .tiff]
+                if panel.runModal() == .OK {
+                    viewModel.optimizeImages(urls: panel.urls)
+                }
+            }) {
+                HStack {
+                    Image(systemName: "photo.on.rectangle")
+                    Text("Files")
+                }
+                .font(.system(size: 11, weight: .bold))
+                .foregroundColor(.white)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 8)
+                .background(Color.white.opacity(0.1))
+                .cornerRadius(8)
+            }
+            .buttonStyle(.plain)
+            .disabled(viewModel.isOptimizing)
+            
+            Button(action: {
+                let panel = NSOpenPanel()
+                panel.canChooseFiles = false
+                panel.canChooseDirectories = true
+                panel.allowsMultipleSelection = false
+                if panel.runModal() == .OK {
+                    viewModel.optimizeImages(urls: panel.urls)
+                }
+            }) {
+                HStack {
+                    Image(systemName: "folder.fill")
+                    Text("Folder")
+                }
+                .font(.system(size: 11, weight: .bold))
+                .foregroundColor(.white)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 8)
+                .background(AstroTheme.primaryGradient)
+                .cornerRadius(8)
+            }
+            .buttonStyle(.plain)
+            .disabled(viewModel.isOptimizing)
         }
     }
     

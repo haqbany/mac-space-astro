@@ -71,7 +71,7 @@ public struct AstroChatView: View {
                 Button(action: viewModel.send) {
                     Image(systemName: "arrow.up.circle.fill")
                         .font(.system(size: 24))
-                        .foregroundColor(AstroTheme.accentRed)
+                        .foregroundColor(AstroTheme.accentBlue)
                 }
                 .buttonStyle(.plain)
             }
@@ -91,7 +91,7 @@ struct ChatBubble: View {
             Text(message.text)
                 .padding(.horizontal, 12)
                 .padding(.vertical, 8)
-                .background(message.isUser ? AstroTheme.accentRed : Color.primary.opacity(0.1))
+                .background(message.isUser ? AstroTheme.accentBlue : Color.primary.opacity(0.1))
                 .foregroundColor(.white)
                 .clipShape(RoundedRectangle(cornerRadius: 16))
                 .frame(maxWidth: 300, alignment: message.isUser ? .trailing : .leading)

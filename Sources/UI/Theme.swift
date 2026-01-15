@@ -26,35 +26,35 @@ public struct VisualEffectView: NSViewRepresentable {
 }
 
 public struct AstroTheme {
-    // Red Edition Palette
-    public static let background = Color(red: 0.06, green: 0.04, blue: 0.04)
-    public static let accentRed = Color(red: 0.82, green: 0.01, blue: 0.01) // Guards Red
-    public static let lightRed = Color(red: 1.0, green: 0.2, blue: 0.2)
-    public static let deepRed = Color(red: 0.5, green: 0.0, blue: 0.0)
+    // Quantum Blue Palette
+    public static let background = Color(red: 0.02, green: 0.03, blue: 0.05)
+    public static let accentBlue = Color(red: 0.0, green: 0.8, blue: 1.0) // Electric Cyan
+    public static let lightBlue = Color(red: 0.4, green: 0.9, blue: 1.0)
+    public static let deepBlue = Color(red: 0.0, green: 0.2, blue: 0.5)
     
     public static let primaryGradient = LinearGradient(
-        colors: [accentRed, Color(red: 0.6, green: 0.0, blue: 0.0)],
+        colors: [accentBlue, Color(red: 0.0, green: 0.4, blue: 0.8)],
         startPoint: .topLeading,
         endPoint: .bottomTrailing
     )
     
     public static let darkGradient = LinearGradient(
-        colors: [Color(red: 0.12, green: 0.08, blue: 0.08), Color(red: 0.06, green: 0.04, blue: 0.04)],
+        colors: [Color(red: 0.05, green: 0.07, blue: 0.1), Color(red: 0.02, green: 0.03, blue: 0.05)],
         startPoint: .top,
         endPoint: .bottom
     )
     
-    public static let gaugeBackground = Color(white: 0.12)
+    public static let gaugeBackground = Color(white: 0.1)
     public static let textPrimary = Color.white
-    public static let textSecondary = Color.white.opacity(0.6)
+    public static let textSecondary = Color.white.opacity(0.7)
     
     public static func cardBackground() -> some View {
         VisualEffectView(material: .fullScreenUI, blendingMode: .withinWindow)
             .clipShape(RoundedRectangle(cornerRadius: 16))
             .overlay(
                 RoundedRectangle(cornerRadius: 16)
-                    .stroke(accentRed.opacity(0.2), lineWidth: 0.5)
+                    .stroke(accentBlue.opacity(0.3), lineWidth: 0.5)
             )
-            .shadow(color: .black.opacity(0.5), radius: 10, x: 0, y: 5)
+            .shadow(color: .black.opacity(0.6), radius: 15, x: 0, y: 8)
     }
 }

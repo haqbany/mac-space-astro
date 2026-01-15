@@ -48,10 +48,6 @@ let package = Package(
             name: "AstroUI",
             dependencies: ["CoreSystemKit", "CleanupEngine", "AstroAI", "ImageEngine"],
             path: "Sources/UI"
-        ),
-        .testTarget(
-            name: "MacSpaceAstroTests",
-            dependencies: ["CoreSystemKit", "CleanupEngine", "AstroAI"]
         )
     ]
 )

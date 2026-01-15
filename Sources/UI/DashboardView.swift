@@ -73,7 +73,7 @@ public struct DashboardView: View {
                         
                         if let stats = viewModel.memoryStats {
                             VStack(alignment: .leading, spacing: 8) {
-                                MemoryRow(label: "Wired", value: stats.wired, color: .red)
+                                MemoryRow(label: "Wired", value: stats.wired, color: .indigo)
                                 MemoryRow(label: "Active", value: stats.active, color: .blue)
                                 MemoryRow(label: "Compressed", value: stats.compressed, color: .yellow)
                                 MemoryRow(label: "Free", value: stats.free, color: .green)
@@ -144,7 +144,7 @@ struct MemoryBarView: View {
     var body: some View {
         GeometryReader { geo in
             HStack(spacing: 0) {
-                Rectangle().fill(Color.red).frame(width: geo.size.width * CGFloat(Double(stats.wired) / Double(stats.physicalTotal)))
+                Rectangle().fill(Color.indigo).frame(width: geo.size.width * CGFloat(Double(stats.wired) / Double(stats.physicalTotal)))
                 Rectangle().fill(Color.blue).frame(width: geo.size.width * CGFloat(Double(stats.active) / Double(stats.physicalTotal)))
                 Rectangle().fill(Color.yellow).frame(width: geo.size.width * CGFloat(Double(stats.compressed) / Double(stats.physicalTotal)))
                 Rectangle().fill(Color.gray.opacity(0.3)).frame(width: geo.size.width * CGFloat(Double(stats.free) / Double(stats.physicalTotal)))

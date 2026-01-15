@@ -88,7 +88,7 @@ public struct CleanupView: View {
                     .buttonStyle(.plain)
                     .padding(.horizontal, 20)
                     .padding(.vertical, 10)
-                    .background(viewModel.selectedItems.isEmpty ? Color.gray.opacity(0.3) : AstroTheme.primaryGradient)
+                    .background(AnyView(viewModel.selectedItems.isEmpty ? AnyView(Color.gray.opacity(0.3)) : AnyView(AstroTheme.primaryGradient)))
                     .cornerRadius(10)
                     .foregroundColor(.white)
                     .disabled(viewModel.selectedItems.isEmpty)
