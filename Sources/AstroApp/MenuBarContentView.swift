@@ -19,16 +19,9 @@ public struct MenuBarContentView: View {
     
     public var body: some View {
         ZStack {
-            // Background gradient
-            LinearGradient(
-                colors: [
-                    Color(red: 0.08, green: 0.08, blue: 0.12),
-                    Color(red: 0.05, green: 0.05, blue: 0.08)
-                ],
-                startPoint: .top,
-                endPoint: .bottom
-            )
-            .ignoresSafeArea()
+            // Red Edition Background
+            AstroTheme.darkGradient
+                .ignoresSafeArea()
             
             VStack(spacing: 0) {
                 // Premium Header
@@ -531,7 +524,7 @@ public struct MenuBarContentView: View {
                             .padding(.horizontal, 8)
                             .background(
                                 RoundedRectangle(cornerRadius: 4)
-                                    .fill(viewModel.selectedImageFormat == format ? Color.blue.opacity(0.4) : Color.white.opacity(0.05))
+                                    .fill(viewModel.selectedImageFormat == format ? AstroTheme.accentRed.opacity(0.4) : Color.white.opacity(0.05))
                             )
                     }
                     .buttonStyle(.plain)
@@ -579,13 +572,7 @@ public struct MenuBarContentView: View {
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 8)
-                    .background(
-                        LinearGradient(
-                            colors: [Color(red: 0.3, green: 0.6, blue: 1), Color(red: 0.4, green: 0.4, blue: 0.9)],
-                            startPoint: .leading,
-                            endPoint: .trailing
-                        )
-                    )
+                    .background(AstroTheme.primaryGradient)
                     .cornerRadius(8)
                 }
                 .buttonStyle(.plain)

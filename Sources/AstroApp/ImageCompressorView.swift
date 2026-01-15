@@ -8,16 +8,20 @@ public struct ImageCompressorView: View {
     public init() {}
     
     public var body: some View {
-        VStack(spacing: 20) {
-            // Header
-            VStack(spacing: 8) {
-                ZStack {
-                    Circle()
-                        .fill(Color(red: 0.4, green: 0.7, blue: 1).opacity(0.1))
-                        .frame(width: 60, height: 60)
-                    Image(systemName: viewModel.isOptimizing ? "arrow.triangle.2.circlepath" : "photo.stack.fill")
-                        .font(.system(size: 24))
-                        .foregroundColor(Color(red: 0.4, green: 0.7, blue: 1))
+        ZStack {
+            AstroTheme.darkGradient
+                .ignoresSafeArea()
+            
+            VStack(spacing: 20) {
+                // Header
+                VStack(spacing: 8) {
+                    ZStack {
+                        Circle()
+                            .fill(AstroTheme.accentRed.opacity(0.1))
+                            .frame(width: 60, height: 60)
+                        Image(systemName: viewModel.isOptimizing ? "arrow.triangle.2.circlepath" : "photo.stack.fill")
+                            .font(.system(size: 24))
+                            .foregroundColor(AstroTheme.accentRed)
                         .rotationEffect(.degrees(viewModel.isOptimizing ? 360 : 0))
                         .animation(viewModel.isOptimizing ? .linear(duration: 1).repeatForever(autoreverses: false) : .default, value: viewModel.isOptimizing)
                 }
@@ -113,11 +117,11 @@ public struct ImageCompressorView: View {
                                 .padding(.vertical, 8)
                                 .background(
                                     RoundedRectangle(cornerRadius: 8)
-                                        .fill(viewModel.selectedFormat == format ? Color.blue.opacity(0.3) : Color.white.opacity(0.05))
+                                        .fill(viewModel.selectedFormat == format ? AstroTheme.accentRed.opacity(0.3) : Color.white.opacity(0.05))
                                 )
                                 .overlay(
                                     RoundedRectangle(cornerRadius: 8)
-                                        .stroke(viewModel.selectedFormat == format ? Color.blue.opacity(0.5) : Color.clear, lineWidth: 1)
+                                        .stroke(viewModel.selectedFormat == format ? AstroTheme.accentRed.opacity(0.5) : Color.clear, lineWidth: 1)
                                 )
                         }
                         .buttonStyle(.plain)
@@ -162,13 +166,7 @@ public struct ImageCompressorView: View {
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 10)
-                        .background(
-                            LinearGradient(
-                                colors: [Color(red: 0.3, green: 0.6, blue: 1), Color(red: 0.4, green: 0.4, blue: 0.9)],
-                                startPoint: .leading,
-                                endPoint: .trailing
-                            )
-                        )
+                        .background(AstroTheme.primaryGradient)
                         .cornerRadius(10)
                 }
                 .buttonStyle(.plain)
@@ -178,8 +176,8 @@ public struct ImageCompressorView: View {
             Spacer()
         }
         .padding(24)
-        .background(Color(red: 0.05, green: 0.05, blue: 0.08))
         .preferredColorScheme(.dark)
+        }
     }
 }
 

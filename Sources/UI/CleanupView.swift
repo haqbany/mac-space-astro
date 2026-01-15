@@ -47,7 +47,12 @@ public struct CleanupView: View {
                     Button("Scan Library") {
                         Task { await viewModel.startScan() }
                     }
-                    .buttonStyle(.borderedProminent)
+                    .buttonStyle(.plain)
+                    .padding(.horizontal, 24)
+                    .padding(.vertical, 12)
+                    .background(AstroTheme.primaryGradient)
+                    .cornerRadius(12)
+                    .foregroundColor(.white)
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else if viewModel.isScanning {
@@ -80,7 +85,12 @@ public struct CleanupView: View {
                     Button("Cleanup") {
                         Task { await viewModel.performCleanup() }
                     }
-                    .buttonStyle(.borderedProminent)
+                    .buttonStyle(.plain)
+                    .padding(.horizontal, 20)
+                    .padding(.vertical, 10)
+                    .background(viewModel.selectedItems.isEmpty ? Color.gray.opacity(0.3) : AstroTheme.primaryGradient)
+                    .cornerRadius(10)
+                    .foregroundColor(.white)
                     .disabled(viewModel.selectedItems.isEmpty)
                 }
                 .padding()

@@ -70,7 +70,7 @@ public struct GT3Gauge: View {
                 Needle()
                     .fill(
                         LinearGradient(
-                            colors: [AstroTheme.accentColor, AstroTheme.accentColor.opacity(0.8)],
+                            colors: [AstroTheme.accentRed, AstroTheme.accentRed.opacity(0.8)],
                             startPoint: .top,
                             endPoint: .bottom
                         )
@@ -86,7 +86,7 @@ public struct GT3Gauge: View {
                         .frame(width: 20, height: 20)
                         .overlay(Circle().stroke(Color.white.opacity(0.1), lineWidth: 0.5))
                     Circle()
-                        .fill(AstroTheme.accentColor)
+                        .fill(AstroTheme.accentRed)
                         .frame(width: 4, height: 4)
                 }
                 
@@ -138,7 +138,7 @@ struct GaugeTicks: View {
                 let isMajor = i % 5 == 0
                 let isRedline = Double(i) * (maxValue / 40.0) >= redline
                 
-                TickMark(isMajor: isMajor, color: isRedline ? AstroTheme.accentColor : .white.opacity(isMajor ? 0.6 : 0.2))
+                TickMark(isMajor: isMajor, color: isRedline ? AstroTheme.accentRed : .white.opacity(isMajor ? 0.6 : 0.2))
                     .rotationEffect(.degrees(angle))
             }
         }
