@@ -1,34 +1,45 @@
-# Mac Space Astro
+# Mac Space Astro: Red Edition 🏎️💨
 
-Mac Space Astro is a native macOS technical companion designed with truth, restraint, and transparency at its core. It provides deep insights into your Mac's performance without misleading "boost" claims or placebo optimizations.
+Mac Space Astro is a native macOS technical companion designed with truth, restraint, and transparency at its core. The **Red Edition** features a premium "Fire Red" design system, high-performance monitoring, and visually lossless image compression.
 
-## 🚀 Vision
-Built for the power user who wants to understand *why* their Mac behaves the way it does. We focus on education over hype, providing real data from macOS system APIs.
+## 🔴 The Red Edition
+The Red Edition is a high-contrast, aggressive UI overhaul inspired by high-performance motorsport instrument clusters.
+
+### 📊 Dashboard: GT3 Instrument Cluster
+Experience monitoring like never before with our signature GT3-style analog gauges. High-accuracy needles track your CPU, Memory Pressure, and Storage in real-time.
+
+> **Preview:**
+> ![Dashboard Preview](https://github.com/haqbany/mac-space-astro-app/raw/main/preview_dashboard.png)
+
+### 📸 Visually Lossless Compressor
+Reduce file sizes by up to 80% without losing a single pixel of quality. Our new engine uses a calibrated 0.85 quality factor for "perceptually identical" results across JPEG, WebP, and AVIF.
+
+> **Preview:**
+> ![Compressor Preview](https://github.com/haqbany/mac-space-astro-app/raw/main/preview_compressor.png)
+
+### 🛸 Stealth Menu Bar
+A slim, frost-glass dashboard that lives in your menu bar. Real-time redlining graphs for network and system health.
+
+> **Preview:**
+> ![Menu Bar Preview](https://github.com/haqbany/mac-space-astro-app/raw/main/preview_menubar.png)
 
 ## 🛠 Tech Stack
 - **Language:** Swift 6.0
-- **UI Framework:** SwiftUI + AppKit bridging for glassmorphism.
-- **Architecture:** Modular architecture (SPM) with separation between System Monitoring, Cleanup logic, and AI services.
-- **System Access:** Low-level `mach` APIs for accurate memory and CPU reporting.
+- **UI Framework:** SwiftUI + AppKit bridging.
+- **Aesthetics:** Custom "AstroTheme" with Guards Red accents.
+- **Engine:** Core Graphics / ImageIO for professional-grade parsing.
 
-## 🧩 Architecture (Modules)
-- **CoreSystemKit:** Low-level monitoring (CPU, RAM, Disk). No UI dependencies.
-- **CleanupEngine:** Safe, rule-based file analysis. Dry-run by default.
-- **AstroAI:** Local intent routing and technical explanation engine.
-- **AstroUI:** Premium macOS aesthetic using SF Symbols and glassmorphism.
+## 🛡 Principles
+- **Local Only:** No cloud AI, no telemetry.
+- **No Placebos:** No fake "RAM Cleaners".
+- **Transparent:** Every metric is explained by Astro AI.
 
-## 🛡 Privacy & Principles
-- **Local Only:** No cloud AI, no telemetry, no background network calls.
-- **No Placebos:** No "RAM Cleaners" or fake optimization buttons.
-- **Transparent:** Every metric is explained. Every cleanup item is previewable.
-
-## 🧪 Development
-This project is organized as a Swift Package. 
-To build the app:
+## 🧪 Quick Start
 ```bash
-swift build
+git clone https://github.com/haqbany/mac-space-astro-app.git
+cd mac-space-astro-app
+swift run
 ```
 
-## 🧠 Astro's Philosophy
-If a user asks why their RAM is full, Astro explains: *"Free RAM is wasted RAM. macOS uses inactive memory for file caching to speed up your experience."* 
-We prioritize honest system behavior over artificial dashboards.
+---
+*Precise Engineering • Safety First*
