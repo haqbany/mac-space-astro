@@ -5,8 +5,8 @@ Mac Space Astro is a native macOS technical companion designed with truth, restr
 ## 🔵 The Quantum Edition
 The Quantum Edition features a high-fidelity, futuristic holographic UI inspired by advanced aerospace instrumentation.
 
-### 📊 Dashboard: Quantum Instrument Cluster
-Experience monitoring like never before with our signature GT3-style analog gauges. High-accuracy cyan needles track your CPU, Memory Pressure, and Storage in real-time.
+### 📊 Dashboard: Quantum Telemetry
+Experience monitoring with clean, high-fidelity Quantum Progress Rings. Track your CPU, Memory, and Storage in real-time with precise visual feedback and integrated Hardware Health metrics.
 
 > **Preview:**
 > ![Dashboard Preview](https://github.com/haqbany/mac-space-astro/raw/main/preview_dashboard.png)
@@ -18,7 +18,7 @@ Reduce file sizes by up to 80% without losing a single pixel of quality. Our new
 > ![Compressor Preview](https://github.com/haqbany/mac-space-astro/raw/main/preview_compressor.png)
 
 ### 🛸 Stealth Menu Bar
-A slim, frost-glass dashboard that lives in your menu bar. Real-time redlining graphs for network and system health.
+A slim, vertical frost-glass dashboard that lives in your menu bar. Quick access to System Information, Hardware Health, and real-time network telemetry.
 
 > **Preview:**
 > ![Menu Bar Preview](https://github.com/haqbany/mac-space-astro/raw/main/preview_menubar.png)
@@ -26,7 +26,7 @@ A slim, frost-glass dashboard that lives in your menu bar. Real-time redlining g
 ## 🛠 Tech Stack
 - **Language:** Swift 6.0
 - **UI Framework:** SwiftUI + AppKit bridging.
-- **Aesthetics:** Custom "AstroTheme" with Guards Red accents.
+- **Aesthetics:** Custom "AstroTheme" with Quantum Blue accents.
 - **Engine:** Core Graphics / ImageIO for professional-grade parsing.
 
 ## 🛡 Principles

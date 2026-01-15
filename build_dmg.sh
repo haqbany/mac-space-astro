@@ -7,8 +7,8 @@ BUILD_DIR=".build/release"
 STAGING_DIR="staging"
 DMG_NAME="${APP_NAME}_Quantum_Edition.dmg"
 
-echo "🚀 Building ${APP_NAME} in Release mode..."
-swift build -c release --disable-sandbox
+echo "🚀 Building ${APP_NAME} for Universal (Intel + Apple Silicon)..."
+swift build -c release --arch arm64 --arch x86_64 --disable-sandbox
 
 if [ $? -ne 0 ]; then
     echo "❌ Build failed"
@@ -20,11 +20,16 @@ rm -rf "${STAGING_DIR}"
 mkdir -p "${STAGING_DIR}/${BUNDLE_NAME}/Contents/MacOS"
 mkdir -p "${STAGING_DIR}/${BUNDLE_NAME}/Contents/Resources"
 
-# Copy binary
-cp "${BUILD_DIR}/${APP_NAME}" "${STAGING_DIR}/${BUNDLE_NAME}/Contents/MacOS/"
+# Copy binary (Universal path)
+cp .build/apple/Products/Release/${APP_NAME} "${STAGING_DIR}/${BUNDLE_NAME}/Contents/MacOS/"
 
 # Copy Info.plist
 cp Info.plist "${STAGING_DIR}/${BUNDLE_NAME}/Contents/"
+
+# Copy Icon
+if [ -f "AppIcon.icns" ]; then
+    cp AppIcon.icns "${STAGING_DIR}/${BUNDLE_NAME}/Contents/Resources/"
+fi
 
 # Create Applications symlink for DMG
 ln -s /Applications "${STAGING_DIR}/Applications"
