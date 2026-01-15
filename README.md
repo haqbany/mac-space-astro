@@ -1,38 +1,42 @@
-# Mac Space Astro: Quantum Edition 🌌🛸
+# Mac Space Astro 🌌
 
-Mac Space Astro is a native macOS technical companion designed with truth, restraint, and transparency at its core. The **Quantum Edition** features a premium "Electric Cyan" design system, high-performance monitoring, and visually lossless image compression.
+Mac Space Astro is a native macOS system utility. It provides a clean, dark-themed dashboard for monitoring system performance and includes built-in tools for storage management.
 
-## 🔵 The Quantum Edition
-The Quantum Edition features a high-fidelity, futuristic holographic UI inspired by advanced aerospace instrumentation.
+## 🔵 Features
 
-### 📊 Dashboard: Quantum Telemetry
-Experience monitoring with clean, high-fidelity Quantum Progress Rings. Track your CPU, Memory, and Storage in real-time with precise visual feedback and integrated Hardware Health metrics.
+### 📊 System Dashboard
+Monitor your Mac's performance with a clean visual interface.
+- **Real-time Monitoring**: Track CPU, Memory, and Disk usage with circular progress indicators.
+- **System Specs**: View detailed info about your Mac (Model, Chip, macOS version).
+- **Hardware Stats**: Check thermal state, temperature, and screen refresh rate.
 
 > **Preview:**
 > ![Dashboard Preview](https://github.com/haqbany/mac-space-astro/raw/main/preview_dashboard.png)
 
-### 📸 Visually Lossless Compressor
-Reduce file sizes by up to 80% without losing a single pixel of quality. Our new engine uses a calibrated 0.85 quality factor for "perceptually identical" results across JPEG, WebP, and AVIF.
+### 📸 Image Compressor
+A built-in tool to compress images.
+- Drag and drop functionality.
+- Supports JPEG, PNG, and WebP formats.
+- Helps reduce file sizes for web use or storage.
 
 > **Preview:**
 > ![Compressor Preview](https://github.com/haqbany/mac-space-astro/raw/main/preview_compressor.png)
 
-### 🛸 Stealth Menu Bar
-A slim, vertical frost-glass dashboard that lives in your menu bar. Quick access to System Information, Hardware Health, and real-time network telemetry.
+### 🖥️ Menu Bar App
+Access system stats directly from the menu bar.
+- View network activity (Upload/Download speeds).
+- Quick access to system health summary.
 
 > **Preview:**
 > ![Menu Bar Preview](https://github.com/haqbany/mac-space-astro/raw/main/preview_menubar.png)
 
 ## 🛠 Tech Stack
 - **Language:** Swift 6.0
-- **UI Framework:** SwiftUI + AppKit bridging.
-- **Aesthetics:** Custom "AstroTheme" with Quantum Blue accents.
-- **Engine:** Core Graphics / ImageIO for professional-grade parsing.
+- **UI Framework:** SwiftUI
+- **Design:** Custom Dark Theme with blue accents.
 
-## 🛡 Principles
-- **Local Only:** No cloud AI, no telemetry.
-- **No Placebos:** No fake "RAM Cleaners".
-- **Transparent:** Every metric is explained by Astro AI.
+## 🛡 Privacy
+- **Local Only:** No cloud servers, no data collection. Everything operates 100% offline.
 
 ## 🧪 Quick Start
 ```bash
