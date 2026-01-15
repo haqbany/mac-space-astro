@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/master.swiftdeps"
+  },
+  "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/CleanupEngine/CleanupEngine.swift": {
+    "dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/CleanupEngine.d",
+    "object": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/CleanupEngine.swift.o",
+    "swiftmodule": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/CleanupEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/CleanupEngine.swiftdeps",
+    "diagnostics": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/CleanupEngine.dia"
+  }
+}

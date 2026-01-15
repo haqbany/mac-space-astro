@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/master.swiftdeps"
+  },
+  "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/AstroChatView.swift": {
+    "dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/AstroChatView.d",
+    "object": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/AstroChatView.swift.o",
+    "swiftmodule": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/AstroChatView~partial.swiftmodule",
+    "swift-dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/AstroChatView.swiftdeps",
+    "diagnostics": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/AstroChatView.dia"
+  },
+  "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/CleanupView.swift": {
+    "dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/CleanupView.d",
+    "object": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/CleanupView.swift.o",
+    "swiftmodule": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/CleanupView~partial.swiftmodule",
+    "swift-dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/CleanupView.swiftdeps",
+    "diagnostics": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/CleanupView.dia"
+  },
+  "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/DashboardView.swift": {
+    "dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/DashboardView.d",
+    "object": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/DashboardView.swift.o",
+    "swiftmodule": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/DashboardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/DashboardView.swiftdeps",
+    "diagnostics": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/DashboardView.dia"
+  },
+  "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/GT3Gauge.swift": {
+    "dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/GT3Gauge.d",
+    "object": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/GT3Gauge.swift.o",
+    "swiftmodule": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/GT3Gauge~partial.swiftmodule",
+    "swift-dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/GT3Gauge.swiftdeps",
+    "diagnostics": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/GT3Gauge.dia"
+  },
+  "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/Theme.swift": {
+    "dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/Theme.d",
+    "object": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/Theme.swift.o",
+    "swiftmodule": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/Theme~partial.swiftmodule",
+    "swift-dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/Theme.swiftdeps",
+    "diagnostics": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/Theme.dia"
+  }
+}

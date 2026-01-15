@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/master.swiftdeps"
+  },
+  "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/ImageEngine/ImageEngine.swift": {
+    "dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/ImageEngine.d",
+    "object": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/ImageEngine.swift.o",
+    "swiftmodule": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/ImageEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/ImageEngine.swiftdeps",
+    "diagnostics": "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/ImageEngine.dia"
+  }
+}

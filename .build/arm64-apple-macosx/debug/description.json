@@ -1,0 +1,1375 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.AstroAI-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroAI.build/sources",
+      "importPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroAI/AstroAI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroAI.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AstroAI",
+      "moduleOutputPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/AstroAI.swiftmodule",
+      "objects" : [
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroAI.build/AstroAI.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroAI.build/include/AstroAI-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "mac_space_astro"
+      ],
+      "outputFileMapPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroAI.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroAI.build/AstroAI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/AstroAI.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroAI/AstroAI.swift"
+      ],
+      "tempsPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroAI.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.AstroApp-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/sources",
+      "importPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/AstroApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/ImageCompressorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/MenuBarContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/CoreSystemKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/CleanupEngine.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/AstroAI.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/AstroUI.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/ImageEngine.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "AstroApp",
+      "moduleOutputPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/AstroApp.swiftmodule",
+      "objects" : [
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/AstroApp.swift.o",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/ContentView.swift.o",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/ImageCompressorView.swift.o",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/MenuBarContentView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "AstroApp_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "mac_space_astro"
+      ],
+      "outputFileMapPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/AstroApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/ImageCompressorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/MenuBarContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/AstroApp.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/AstroApp.swift",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/ContentView.swift",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/ImageCompressorView.swift",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/MenuBarContentView.swift"
+      ],
+      "tempsPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.AstroUI-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/sources",
+      "importPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/AstroChatView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/CleanupView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/DashboardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/GT3Gauge.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/CoreSystemKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/CleanupEngine.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/AstroAI.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/ImageEngine.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AstroUI",
+      "moduleOutputPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/AstroUI.swiftmodule",
+      "objects" : [
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/AstroChatView.swift.o",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/CleanupView.swift.o",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/DashboardView.swift.o",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/GT3Gauge.swift.o",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/Theme.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/include/AstroUI-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "mac_space_astro"
+      ],
+      "outputFileMapPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/AstroChatView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/CleanupView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/DashboardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/GT3Gauge.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/AstroUI.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/AstroChatView.swift",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/CleanupView.swift",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/DashboardView.swift",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/GT3Gauge.swift",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/Theme.swift"
+      ],
+      "tempsPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.CleanupEngine-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/sources",
+      "importPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/CleanupEngine/CleanupEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/CoreSystemKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CleanupEngine",
+      "moduleOutputPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/CleanupEngine.swiftmodule",
+      "objects" : [
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/CleanupEngine.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/include/CleanupEngine-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "mac_space_astro"
+      ],
+      "outputFileMapPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/CleanupEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/CleanupEngine.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/CleanupEngine/CleanupEngine.swift"
+      ],
+      "tempsPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.CoreSystemKit-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CoreSystemKit.build/sources",
+      "importPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/CoreSystemKit/SystemMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CoreSystemKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CoreSystemKit",
+      "moduleOutputPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/CoreSystemKit.swiftmodule",
+      "objects" : [
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CoreSystemKit.build/SystemMonitor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CoreSystemKit.build/include/CoreSystemKit-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "mac_space_astro"
+      ],
+      "outputFileMapPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CoreSystemKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CoreSystemKit.build/SystemMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/CoreSystemKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/CoreSystemKit/SystemMonitor.swift"
+      ],
+      "tempsPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CoreSystemKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ImageEngine-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/sources",
+      "importPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/ImageEngine/ImageEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ImageEngine",
+      "moduleOutputPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/ImageEngine.swiftmodule",
+      "objects" : [
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/ImageEngine.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/include/ImageEngine-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "mac_space_astro"
+      ],
+      "outputFileMapPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/ImageEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules/ImageEngine.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/ImageEngine/ImageEngine.swift"
+      ],
+      "tempsPath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "AstroAI" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AstroAI",
+      "-package-name",
+      "mac_space_astro",
+      "-c",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroAI/AstroAI.swift",
+      "-I",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroAI.build/include/AstroAI-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mac_space_astro",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "AstroApp" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AstroApp",
+      "-package-name",
+      "mac_space_astro",
+      "-c",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/AstroApp.swift",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/ContentView.swift",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/ImageCompressorView.swift",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/MenuBarContentView.swift",
+      "-I",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "AstroApp_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mac_space_astro",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "AstroUI" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AstroUI",
+      "-package-name",
+      "mac_space_astro",
+      "-c",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/AstroChatView.swift",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/CleanupView.swift",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/DashboardView.swift",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/GT3Gauge.swift",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/Theme.swift",
+      "-I",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/include/AstroUI-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mac_space_astro",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "CleanupEngine" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "CleanupEngine",
+      "-package-name",
+      "mac_space_astro",
+      "-c",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/CleanupEngine/CleanupEngine.swift",
+      "-I",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/include/CleanupEngine-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mac_space_astro",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "CoreSystemKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "CoreSystemKit",
+      "-package-name",
+      "mac_space_astro",
+      "-c",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/CoreSystemKit/SystemMonitor.swift",
+      "-I",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CoreSystemKit.build/include/CoreSystemKit-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mac_space_astro",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ImageEngine" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ImageEngine",
+      "-package-name",
+      "mac_space_astro",
+      "-c",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/ImageEngine/ImageEngine.swift",
+      "-I",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/include/ImageEngine-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mac_space_astro",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "AstroAI" : [
+
+    ],
+    "AstroApp" : [
+      "AstroUI",
+      "ImageEngine",
+      "AstroAI",
+      "CleanupEngine",
+      "CoreSystemKit"
+    ],
+    "AstroUI" : [
+      "ImageEngine",
+      "AstroAI",
+      "CleanupEngine",
+      "CoreSystemKit"
+    ],
+    "CleanupEngine" : [
+      "CoreSystemKit"
+    ],
+    "CoreSystemKit" : [
+
+    ],
+    "ImageEngine" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroAI.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroAI/AstroAI.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroAI.build/sources"
+    },
+    "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/AstroApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/ImageCompressorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/AstroApp/MenuBarContentView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/sources"
+    },
+    "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/AstroChatView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/CleanupView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/DashboardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/GT3Gauge.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/UI/Theme.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/sources"
+    },
+    "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/CleanupEngine/CleanupEngine.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/sources"
+    },
+    "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CoreSystemKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/CoreSystemKit/SystemMonitor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CoreSystemKit.build/sources"
+    },
+    "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/Sources/ImageEngine/ImageEngine.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/sources"
+    },
+    "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/MacSpaceAstro-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/MacSpaceAstro-entitlement.plist"
+    },
+    "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/MacSpaceAstro.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroAI.build/AstroAI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/AstroApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/ImageCompressorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroApp.build/MenuBarContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/AstroChatView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/CleanupView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/DashboardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/GT3Gauge.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/AstroUI.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CleanupEngine.build/CleanupEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/CoreSystemKit.build/SystemMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/ImageEngine.build/ImageEngine.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/MacSpaceAstro.product/Objects.LinkFileList"
+    },
+    "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/rhmacmini/.gemini/antigravity/scratch/mac-space-astro/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
